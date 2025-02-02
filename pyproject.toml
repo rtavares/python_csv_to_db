@@ -1,0 +1,20 @@
+[project]
+name = "python_csv_db"
+version = "0.1.0"
+description = "Python CSV to DB"
+requires-python = ">=3.13.1"
+dependencies = [
+    "pandas>=2.2.3",
+    "psycopg2-binary>=2.9.10",
+    "python-dotenv>=1.0.1",
+    "sqlalchemy>=2.0.37",
+    "streamlit>=1.41.1",
+    "watchdog>=6.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "chardet>=5.2.0",
+    "ipdb>=0.13.13",
+    "ruff>=0.9.4",
+]

@@ -1,0 +1,22 @@
+# Please copy or rename this file to '.env' in the root of the project.
+# Adjust the values to what better fits your environment.
+# Please remember to always add the .env file to the .gitignore.
+# Never commit sensitive information to a repository.
+
+COMPOSE_PROJECT_NAME=python_csv_db
+
+DEBUG=True
+
+POSTGRES_HOST=localhost
+POSTGRES_DB=books
+TABLE_NAME=books
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=pg_pwd!_9-
+POSTGRES_INTERNAL_PORT=5432
+POSTGRES_EXTERNAL_PORT=5432
+
+PGADMIN_DEFAULT_EMAIL=test@test.com
+PGADMIN_DEFAULT_PASSWORD=test
+PGADMIN_EXTERNAL_PORT=8001
+
+INPUT_FILE=books.csv
